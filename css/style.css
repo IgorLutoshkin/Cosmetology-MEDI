@@ -148,14 +148,54 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 body {
   font-family: Gilroy, sans-serif;
-  font-size: small;
+  font-size: 14px;
   color: black;
 }
 .wrapper {
   max-width: 1295px;
   margin: 0 auto;
-  padding: 0
+  padding: 0px;
   background-color: yellowgreen;
+}
+.head__list {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 60px;
+}
+.head__info {
+  height: 90px;
+}
+.head-item-telephone {
+  width: 125px;
+  line-height: 90px;
+}
+.head-item-salon {
+  width: 140px;
+  line-height: 90px;
+}
+.head__item-button-salon {
+  margin-left: 15px;
+}
+.head__item-button-visually-impaired {
+  width: 270px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  background: url(/img/simple-line-icons_eye.svg) no-repeat left 15px center;
+  background-color: #00868a;
+  border: 0;
+  margin-top: 25px;
+  padding: 13px 15px 11px 51px;
 }
