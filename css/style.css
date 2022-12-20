@@ -125,77 +125,122 @@ table {
   border-spacing: 0;
 }
 
-@font-face {
-  font-family: "Gilroy-Regular";
-  src: url("../fonts/gilroy-regular.eot"); /* IE 9 Compatibility Mode */
-  src: url("../fonts/gilroy-regular.eot?#iefix") format("embedded-opentype"),
-    /* IE < 9 */ url("../fonts/gilroy-regular.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/gilroy-regular.woff")
-      format("woff"),
-    /* Firefox >= 3.6, any other modern browser */
-      url("../fonts/gilroy-regular.ttf") format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/gilroy-regular.svg#gilroy-regular")
-      format("svg"); /* Chrome < 4, Legacy iOS */
-}
-/* setting */
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-body {
-  font-family: Gilroy, sans-serif;
-  font-size: 14px;
-  color: black;
-}
+/*  Heder-nav */
 .wrapper {
-  max-width: 1295px;
+  width: 1300px;
   margin: 0 auto;
-  padding: 0px;
-  background-color: yellowgreen;
 }
-.head__list {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 60px;
+
+a {
+  text-decoration: none;
 }
-.head__info {
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   height: 90px;
 }
-.head-item-telephone {
-  width: 125px;
-  line-height: 90px;
+.block__list a {
+  padding: 36px 30px 35px 30px;
+  display: block;
+  align-items: center;
+  color: rgb(0, 0, 0);
 }
-.head-item-salon {
-  width: 140px;
-  line-height: 90px;
+.nav__list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  border-left: 1px #c4c4c4;
+  border-style: none solid none solid;
 }
-.head__item-button-salon {
-  margin-left: 15px;
+.nav__list li:last-child {
+  border-right: 1px solid #c4c4c4;
 }
-.head__item-button-visually-impaired {
-  width: 270px;
+.logo__medi a {
+  padding: 0 35px 0 36px;
+}
+
+/* wrapper info */
+.wrapper__info {
+  background: #4fbfa5;
+  height: 700px;
+}
+.hed__wrapper {
+  width: 1300px;
+
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.list__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   height: 40px;
-  font-style: normal;
+  padding-top: 30px;
+  margin-bottom: 23px;
+}
+.list__wrapper li {
+  margin-right: 65px;
+}
+.list__wrapper li:first-child {
+  margin-left: 60px;
+}
+.list__wrapper a {
+  color: #fff;
+}
+.buttom__nav-wrapper a {
+  margin-left: 30px;
+  margin-right: 10px;
+  padding: 9px 15px 10px 15px;
+  background-color: #fff;
   font-weight: 500;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+}
+
+/* Косметология */
+.cosmetology__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section{
+  margin-right: 134px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+}
+p{
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+margin-bottom: 40px;
+}
+.link__info{
+  padding: 15px 25px 14px 25px;
+  background: #00868A;
+  font-size: 18px;
   text-transform: uppercase;
-  background: url(/img/simple-line-icons_eye.svg) no-repeat left 15px center;
-  background-color: #00868a;
-  border: 0;
-  margin-top: 25px;
-  padding: 13px 15px 11px 51px;
+  color: #fff;
 }
