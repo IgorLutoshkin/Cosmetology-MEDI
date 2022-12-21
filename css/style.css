@@ -125,10 +125,10 @@ table {
   border-spacing: 0;
 }
 /* настройки */
-body{
+body {
   max-width: 1900px;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 /*  Heder-nav */
@@ -176,13 +176,8 @@ a {
 
 /* wrapper info */
 .wrapper__info {
-
   background: #4fbfa5;
   height: 700px;
-}
-.hed__wrapper {
-  
-  
 }
 
 .list__wrapper {
@@ -194,7 +189,6 @@ a {
   padding-top: 30px;
   margin-bottom: 23px;
   font-size: 18px;
-  
 }
 .list__wrapper li {
   margin-right: 65px;
@@ -202,7 +196,7 @@ a {
 .list__wrapper li:first-child {
   margin-left: 60px;
 }
-.list__wrapper li:last-child{
+.list__wrapper li:last-child {
   margin-right: 0;
 }
 .list__wrapper a {
@@ -221,12 +215,14 @@ a {
 /* Косметология */
 
 .cosmetology__info {
+  width: 1300px;
+  margin:0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-section{
-  margin-right: 134px;
+section {
+  margin-right: 60px;
 }
 h1 {
   font-size: 48px;
@@ -237,23 +233,33 @@ h1 {
   margin-bottom: 20px;
 }
 
-p{
-font-size: 14px;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: left;
-color: #fff;
-margin-bottom: 40px;
+p {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 40px;
 }
-.link__info{
+
+.link__info {
   padding: 15px 25px 14px 25px;
-  background: #00868A;
+  background: #00868a;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-/* arrow__section */
-.arrow__block{
-
+.buttom__link-info {
+  margin-bottom: 24px;
 }
 
+/* arrow__section */
+.arrow__block {
+  margin-left: 371px;
+  display: flex;
+
+  align-items: unset;
+}
+.arrow__section-l {
+  margin-right: -1px;
+}
