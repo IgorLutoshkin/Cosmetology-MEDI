@@ -264,3 +264,14 @@ p {
 .arrow__section-l {
   margin-right: -1px;
 }
+/*  */
+.cos__info{
+  display: block;
+  position: relative;
+}
+.cos__info-buttom{
+  display: flex;
+  justify-content:end;
+  align-items: end;
+  position: absolute;
+}
