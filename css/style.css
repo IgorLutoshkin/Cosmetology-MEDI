@@ -271,8 +271,8 @@ p {
 /*  */
 .cos__info {
   display: block;
-  height: 80px;
   font-size: 21px;
+  height: 80px;
 }
 .cos__info-buttom {
   display: flex;
@@ -291,6 +291,8 @@ p {
   background: #00868a;
 }
 .cos__info-buttom a {
+  line-height: 32px;
   white-space: nowrap;
   color: #fff;
+  
 }
