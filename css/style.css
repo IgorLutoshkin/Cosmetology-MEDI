@@ -181,13 +181,13 @@ a {
 }
 
 .list__wrapper {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  
   padding-top: 30px;
-  margin-bottom: 23px;
+  margin-bottom: 30px;
   font-size: 18px;
 }
 .list__wrapper li {
@@ -200,6 +200,7 @@ a {
   margin-right: 0;
 }
 .list__wrapper a {
+  line-height: 27px;
   color: #fff;
 }
 .buttom__nav-wrapper a {
@@ -216,7 +217,8 @@ a {
 
 .cosmetology__info {
   width: 1300px;
-  margin:0 auto;
+  height: 533px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -232,7 +234,9 @@ h1 {
   color: #fff;
   margin-bottom: 20px;
 }
-
+.img__info {
+  height: 100%;
+}
 p {
   width: 416px;
   font-size: 14px;
@@ -240,7 +244,7 @@ p {
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 55px;
 }
 
 .link__info {
@@ -265,13 +269,28 @@ p {
   margin-right: -1px;
 }
 /*  */
-.cos__info{
+.cos__info {
   display: block;
-  position: relative;
+  height: 80px;
+  font-size: 21px;
 }
-.cos__info-buttom{
+.cos__info-buttom {
   display: flex;
-  justify-content:end;
-  align-items: end;
-  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+}
+.first__buttom {
+  padding: 24px 199px;
+  background: #00868a;
+}
+.medium__buttom {
+  padding: 24px 83px 24px 82px;
+}
+.last__buttom {
+  padding: 24px 97px;
+  background: #00868a;
+}
+.cos__info-buttom a {
+  white-space: nowrap;
+  color: #fff;
 }
