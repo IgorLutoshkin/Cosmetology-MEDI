@@ -297,3 +297,13 @@ p {
   
 }
 
+/* start инновации */
+.innovations{
+  display: flex;
+  justify-content: space-between;
+}
+.patent{
+  display: flex;
+  justify-content: space-between;
+}
+/* end инновации */
