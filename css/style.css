@@ -322,12 +322,20 @@ p {
   display: block;
   width: 125px;
   padding: 9px 15px 10px 15px;
+  margin-bottom: 30px;
   text-align: center;
   color: #fff;
-  background-color: #4FBFA5;
+  background-color: #4fbfa5;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
+}
+.innovations-desc {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
 }
 /* end инновации */
