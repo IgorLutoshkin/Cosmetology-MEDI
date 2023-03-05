@@ -185,7 +185,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
+
   padding-top: 30px;
   margin-bottom: 30px;
   font-size: 18px;
@@ -294,25 +294,40 @@ p {
   line-height: 32px;
   white-space: nowrap;
   color: #fff;
-  
 }
 
 /* start инновации */
-.innovations{
+.innovations {
   padding-top: 80px;
   display: flex;
-  
   justify-content: space-between;
 }
-.innovations-wrap{
+.innovations-wrap {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-direction: column;
+}
+.innovation-box {
+  padding-top: 35px;
+  padding-left: 40px;
+  padding-bottom: 45px;
   background-color: #00868a;
 }
-.patent{
+.patent {
   display: flex;
   justify-content: space-between;
 }
 
+.innovations-btn {
+  display: block;
+  width: 125px;
+  padding: 9px 15px 10px 15px;
+  text-align: center;
+  color: #fff;
+  background-color: #4FBFA5;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
 /* end инновации */
