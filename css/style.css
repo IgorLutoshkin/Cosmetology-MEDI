@@ -223,9 +223,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-section {
-  margin-right: 60px;
-}
+
 h1 {
   font-size: 48px;
   line-height: 72px;
@@ -237,7 +235,7 @@ h1 {
 .img__info {
   height: 100%;
 }
-p {
+.cosmetology-desc {
   width: 416px;
   font-size: 14px;
   line-height: 21px;
@@ -300,12 +298,13 @@ p {
 .innovations {
   padding-top: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .innovations-wrap {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  padding-right: 134px;
 }
 .innovation-box {
   padding-top: 35px;
@@ -352,6 +351,19 @@ p {
 .arrow {
   display: block;
   padding-right: 20px;
+}
 
+.patent-title{
+  display: block;
+  width: 156px;
+  padding: 9px 15px 10px 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #4fbfa5;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
 }
 /* end инновации */
