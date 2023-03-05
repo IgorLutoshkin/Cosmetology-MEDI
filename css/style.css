@@ -299,11 +299,20 @@ p {
 
 /* start инновации */
 .innovations{
+  padding-top: 80px;
   display: flex;
+  
   justify-content: space-between;
+}
+.innovations-wrap{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-color: #00868a;
 }
 .patent{
   display: flex;
   justify-content: space-between;
 }
+
 /* end инновации */
