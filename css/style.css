@@ -338,4 +338,20 @@ p {
   font-size: 30px;
   line-height: 45px;
 }
+.innovations-link-btn {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+.arrow {
+  display: block;
+  padding-right: 20px;
+
+}
 /* end инновации */
