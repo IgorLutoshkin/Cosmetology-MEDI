@@ -368,6 +368,7 @@ h1 {
 }
 .patent-item {
   display: flex;
+  
 }
 
 .num {
@@ -387,6 +388,12 @@ h1 {
   font-size: 14px;
   line-height: 21px;
   z-index: 10;
+}
+.patent-item:last-child{
+  padding-top: 214px;
+}
+.top-element-desc{
+  width:100%
 }
 .top-element{
   position: absolute;
