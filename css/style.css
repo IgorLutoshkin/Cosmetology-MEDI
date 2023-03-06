@@ -367,6 +367,24 @@ h1 {
   line-height: 21px;
 }
 .patent-item {
-  
+  display: flex;
+}
+
+.num {
+  width: 50px;
+  padding-right: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  opacity: 0.35;
+}
+.item-desc {
+  width: 144px;
+  opacity: 0.35;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
 }
 /* end инновации */
