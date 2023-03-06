@@ -352,7 +352,9 @@ h1 {
   display: block;
   padding-right: 20px;
 }
-
+.patent{
+  align-items: center;
+}
 .patent-title {
   display: block;
   width: 156px;
@@ -390,21 +392,27 @@ h1 {
 .patent-item:last-child {
   padding-top: 184px;
 }
-.top-element-desc {
-  width: 100%;
-}
+
 .top-element {
   position: absolute;
-  width: 319px;
   padding-top: 20px;
 }
-.top-element-num{
+.top-element-num {
   font-style: normal;
   font-weight: 500;
   font-size: 96px;
   line-height: 144px;
   padding-right: 30px;
   opacity: 100%;
-  color:  #00868A;
+  color: #00868a;
+}
+.top-element-desc {
+  padding-top: 30px;
+  width: 319px;
+  opacity: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
 }
 /* end инновации */
