@@ -386,5 +386,10 @@ h1 {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
+  z-index: 10;
+}
+.top-element{
+  position: absolute;
+  width: 319px;
 }
 /* end инновации */
