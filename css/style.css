@@ -460,11 +460,19 @@ h1 {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-.news-item:last-child{
+.news-item:last-child {
   padding-top: 70px;
 }
-.sidebar-news{
+.sidebar-news {
   padding-left: 60px;
   padding-right: 60px;
+}
+.sidebar-title {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
 }
 /* end news */
