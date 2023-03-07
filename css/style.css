@@ -434,5 +434,17 @@ h1 {
   padding: 0 40px 0 40px;
   background-color: #4fbfa5;
 }
-
+.news-title {
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+.news-title-text{
+  padding: 9px 15px 10px 15px;
+  width: 71px;
+  background-color: #00868a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
 /* end news */
