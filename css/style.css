@@ -440,6 +440,7 @@ h1 {
   padding-bottom: 30px;
 }
 .news-title-text {
+  display: block;
   padding: 9px 15px 10px 15px;
   width: 71px;
   background-color: #00868a;
