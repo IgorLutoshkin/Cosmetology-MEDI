@@ -314,7 +314,6 @@ h1 {
 .patent {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .innovations-btn {
@@ -352,10 +351,10 @@ h1 {
   display: block;
   padding-right: 20px;
 }
-.patent-desc{
+.patent-desc {
   padding-right: 112px;
 }
-.patent{
+.patent {
   padding-top: 35px;
 }
 .patent-title {
@@ -392,8 +391,8 @@ h1 {
   font-size: 14px;
   line-height: 21px;
 }
-.patent-item:first-child{
-padding-bottom: 15px;
+.patent-item:first-child {
+  padding-bottom: 15px;
 }
 .patent-item:last-child {
   padding-top: 184px;
@@ -421,10 +420,19 @@ padding-bottom: 15px;
   font-size: 28px;
   line-height: 42px;
 }
-.patent-pic-wrap{
+.patent-pic-wrap {
   padding-top: 85px;
 }
 /* end инновации */
- /* start news */
-    
-  /* end news */
+
+/* start news */
+.news {
+  display: flex;
+  justify-content: space-between;
+}
+.news-box {
+  padding: 0 40px 0 40px;
+  background-color: #4fbfa5;
+}
+
+/* end news */
