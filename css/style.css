@@ -434,6 +434,7 @@ h1 {
 .news-box {
   padding: 0 40px 0 40px;
   background-color: #4fbfa5;
+  color: #ffffff;
 }
 .news-title {
   padding-top: 35px;
@@ -454,7 +455,6 @@ h1 {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  color: #ffffff;
 }
 .news-item {
   padding-top: 35px;
@@ -466,6 +466,7 @@ h1 {
 .sidebar-news {
   padding-left: 60px;
   padding-right: 60px;
+  background-color: #e5e5e5;
 }
 .sidebar-title {
   padding-top: 35px;
@@ -475,4 +476,20 @@ h1 {
   font-size: 24px;
   line-height: 36px;
 }
+.sidebar-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.sidebar-item{
+  padding-left: 15px;
+  padding-bottom: 14px;
+  background-image: url(/img/маркер.svg);
+  background-position: 0 7.5px;
+  background-size: 6px;
+  background-repeat: no-repeat;
+}
+
+
 /* end news */
