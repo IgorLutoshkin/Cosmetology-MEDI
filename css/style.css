@@ -429,6 +429,7 @@ h1 {
 .news {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .news-box {
   width: 41%;
@@ -456,7 +457,6 @@ h1 {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  
 }
 .news-item {
   padding: 35px 40px;
@@ -492,5 +492,23 @@ h1 {
   background-size: 6px;
   background-repeat: no-repeat;
 }
-
 /* end news */
+
+/* start offers */
+.offers-list {
+  display: flex;
+  justify-content: space-around;
+}
+.offers-title {
+  padding-top: 80px;
+  padding-bottom: 198px;
+  text-align: center;
+  background-color: #e5f3f4;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #00868a;
+}
+
+/* утв offers */
