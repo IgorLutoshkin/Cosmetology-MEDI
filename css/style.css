@@ -495,12 +495,15 @@ h1 {
 /* end news */
 
 /* start offers */
+.offers{
+  height: 556px;
+  margin-bottom: 100px;
+}
 .offers-list {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-
 .offers-title {
   padding-top: 80px;
   padding-bottom: 198px;
