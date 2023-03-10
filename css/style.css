@@ -498,7 +498,7 @@ h1 {
 .offers-list {
   display: flex;
   justify-content: center;
-  position: relative;
+  width: 100%;
 }
 
 .offers-title {
@@ -512,11 +512,11 @@ h1 {
   line-height: 72px;
   color: #00868a;
 }
-.offers-pic-wrap{
+.offers-pic-wrap {
   position: relative;
   top: -180px;
 }
-.offers-sicker{
+.offers-sicker {
   position: relative;
   bottom: 108px;
   left: 30px;
@@ -532,12 +532,25 @@ h1 {
   line-height: 21px;
 }
 
-.offers-item{
+.offers-item {
   padding-right: 24px;
 }
-.offers-item:last-child{
+.offers-item:last-child {
   padding-right: 0;
 }
-
-
+.offers-pic {
+  display: block;
+}
+.pic-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  color: #fff;
+  background-color: #00868a;
+}
 /* end offers */
