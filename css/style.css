@@ -532,4 +532,12 @@ h1 {
   line-height: 21px;
 }
 
-/* утв offers */
+.offers-item{
+  padding-right: 24px;
+}
+.offers-item:last-child{
+  padding-right: 0;
+}
+
+
+/* end offers */
