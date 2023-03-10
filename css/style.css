@@ -498,7 +498,9 @@ h1 {
 .offers-list {
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
+
 .offers-title {
   padding-top: 80px;
   padding-bottom: 198px;
@@ -509,6 +511,10 @@ h1 {
   font-size: 48px;
   line-height: 72px;
   color: #00868a;
+}
+.offers-item{
+  position: relative;
+  top: -92px;
 }
 
 /* утв offers */
