@@ -516,6 +516,20 @@ h1 {
   position: relative;
   top: -180px;
 }
-
+.offers-sicker{
+  position: relative;
+  bottom: 108px;
+  left: 30px;
+  z-index: 10;
+  width: 118px;
+  padding: 9px 15px 10px 15px;
+  text-align: center;
+  color: #fff;
+  background-color: #4fbfa5;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
 
 /* утв offers */
