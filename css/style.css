@@ -566,7 +566,7 @@ h1 {
 .footer-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 30px;
+  row-gap: 15px;
   column-gap: 191px;
 }
 .item-card-title {
@@ -583,4 +583,5 @@ h1 {
   font-size: 14px;
   line-height: 21px;
 }
+
 /* end footer */
