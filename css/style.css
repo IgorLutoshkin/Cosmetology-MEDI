@@ -557,3 +557,12 @@ h1 {
   background-color: #00868a;
 }
 /* end offers */
+
+
+
+/* start footer */
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+/* end footer */
