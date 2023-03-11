@@ -585,6 +585,9 @@ h1 {
   font-size: 14px;
   line-height: 21px;
 }
+.footer-contact{
+  padding-top: 11px;
+}
 .item-contact-title {
   padding-bottom: 10px;
   font-style: normal;
