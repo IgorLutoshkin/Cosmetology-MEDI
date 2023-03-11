@@ -598,4 +598,17 @@ h1 {
   font-size: 21px;
   line-height: 32px;
 }
+.item-contact-btn {
+  padding: 15px 25px;
+  width: 116px;
+  white-space: nowrap;
+  background: #00868A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
 /* end footer */
