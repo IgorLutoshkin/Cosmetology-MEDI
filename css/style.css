@@ -592,4 +592,10 @@ h1 {
   text-transform: uppercase;
   opacity: 0.5;
 }
+.item-contact-desc {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+}
 /* end footer */
