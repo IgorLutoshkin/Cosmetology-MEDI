@@ -561,7 +561,9 @@ h1 {
 /* start footer */
 .footer-wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 134px;
+
 }
 .footer-card {
   display: grid;
