@@ -495,7 +495,7 @@ h1 {
 /* end news */
 
 /* start offers */
-.offers{
+.offers {
   height: 556px;
   margin-bottom: 100px;
 }
@@ -558,17 +558,21 @@ h1 {
 }
 /* end offers */
 
-
-
 /* start footer */
-.footer-wrap{
+.footer-wrap {
   display: flex;
   justify-content: space-between;
 }
-.footer-card{
+.footer-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 30px; 
+  row-gap: 30px;
   column-gap: 191px;
+}
+.item-card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height:32px;
 }
 /* end footer */
