@@ -570,9 +570,17 @@ h1 {
   column-gap: 191px;
 }
 .item-card-title {
+  padding-bottom: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 21px;
-  line-height:32px;
+  line-height: 32px;
+}
+.item-card {
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
 }
 /* end footer */
