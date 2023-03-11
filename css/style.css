@@ -583,5 +583,13 @@ h1 {
   font-size: 14px;
   line-height: 21px;
 }
-
+.item-contact-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
 /* end footer */
