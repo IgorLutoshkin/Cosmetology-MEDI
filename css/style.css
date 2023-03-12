@@ -559,6 +559,9 @@ h1 {
 /* end offers */
 
 /* start footer */
+.footer{
+  margin-bottom: 80px;
+}
 .footer-wrap {
   display: flex;
   justify-content: start;
@@ -627,12 +630,17 @@ h1 {
 
 /* start footer-bottom */
 .footer-bottom {
-  opacity: 0.5;
   border: 1px solid #c4c4c4;
 }
 .footer-bottom-list {
   display: flex;
   justify-content: space-between;
 }
-
+.item-copyright {
+  padding: 20px 70px 16px 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
 /* end footer-bottom */
