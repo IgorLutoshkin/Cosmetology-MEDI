@@ -559,7 +559,7 @@ h1 {
 /* end offers */
 
 /* start footer */
-.footer{
+.footer {
   margin-bottom: 80px;
 }
 .footer-wrap {
@@ -635,12 +635,22 @@ h1 {
 .footer-bottom-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .item-copyright {
+  width: 300px;
   padding: 20px 70px 16px 25px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+}
+.link-confed {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #000;
 }
 /* end footer-bottom */
