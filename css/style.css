@@ -563,7 +563,6 @@ h1 {
   display: flex;
   justify-content: start;
   gap: 134px;
-
 }
 .footer-card {
   display: grid;
@@ -585,7 +584,7 @@ h1 {
   font-size: 14px;
   line-height: 21px;
 }
-.footer-contact{
+.footer-contact {
   padding-top: 11px;
 }
 .item-contact-title {
@@ -598,7 +597,7 @@ h1 {
   text-transform: uppercase;
   opacity: 0.5;
 }
-.item-contact-title:nth-child(6){
+.item-contact-title:nth-child(6) {
   padding-top: 30px;
 }
 .item-contact-desc {
@@ -608,14 +607,14 @@ h1 {
   font-size: 21px;
   line-height: 32px;
 }
-.item-contact-desc:nth-child(2){
+.item-contact-desc:nth-child(2) {
   padding-bottom: 30px;
 }
 .item-contact-btn {
   padding: 15px 25px;
   width: 116px;
   white-space: nowrap;
-  background: #00868A;
+  background: #00868a;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -625,3 +624,15 @@ h1 {
   color: #fff;
 }
 /* end footer */
+
+/* start footer-bottom */
+.footer-bottom {
+  opacity: 0.5;
+  border: 1px solid #c4c4c4;
+}
+.footer-bottom-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* end footer-bottom */
