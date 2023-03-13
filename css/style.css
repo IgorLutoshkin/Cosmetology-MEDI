@@ -158,6 +158,9 @@ a {
 .item__salons{
   padding: 0 30px;
 }
+.link-salons{
+  display: flex;
+}
 
 
 .nav__list {
