@@ -213,14 +213,18 @@ a {
   color: black;
 }
 
+
 /* Косметология */
 
 .cosmetology__info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
+.cosmetology{
+  padding-top: 133px;
+}
 .cosmetology-title {
   font-size: 48px;
   line-height: 72px;
@@ -241,15 +245,21 @@ a {
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
-  margin-bottom: 55px;
+  margin-bottom: 40px;
 }
 
 .link__info {
+  width: 113px;
+  display: block;
   padding: 15px 25px 14px 25px;
   background: #00868a;
   color: #fff;
-  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
   letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 .buttom__link-info {
   margin-bottom: 24px;
@@ -273,10 +283,10 @@ a {
 .cos__info-buttom {
   width: 100%;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
-.link-info-btn{
+.link-info-btn {
   display: block;
 }
 .first__buttom {
