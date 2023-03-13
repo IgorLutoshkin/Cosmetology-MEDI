@@ -560,7 +560,7 @@ h1 {
 
 /* start footer */
 .footer {
-  margin-bottom: 80px;
+  margin-bottom: 65px;
 }
 .footer-wrap {
   display: flex;
@@ -634,8 +634,8 @@ h1 {
 }
 .footer-bottom-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: start;
+  
 }
 .item-copyright {
   width: 300px;
@@ -646,11 +646,33 @@ h1 {
   line-height: 18px;
 }
 .link-confed {
+  display: block;
+  padding-top: 38px;
+  padding-right: 96px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   text-decoration-line: underline;
   color: #000;
+}
+
+.link-btn-icon {
+  display: block;
+  padding-right: 10px;
+}
+.link-btn {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: nowrap;
+  padding: 13px 15px 11px 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #00868a;
 }
 /* end footer-bottom */
