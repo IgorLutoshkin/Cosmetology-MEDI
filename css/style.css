@@ -133,7 +133,7 @@ body {
 }
 /*  Heder-nav */
 .wrapper {
-  max-width: 1300px;
+  max-width: 1295px;
   margin: 0 auto;
 }
 
@@ -565,7 +565,7 @@ h1 {
 .footer-wrap {
   display: flex;
   justify-content: start;
-  gap: 134px;
+  
 }
 .footer-card {
   display: grid;
@@ -589,6 +589,7 @@ h1 {
 }
 .footer-contact {
   padding-top: 11px;
+  padding-left: 134px;
 }
 .item-contact-title {
   padding-bottom: 10px;
@@ -635,7 +636,6 @@ h1 {
 .footer-bottom-list {
   display: flex;
   justify-content: start;
-  
 }
 .item-copyright {
   width: 300px;
@@ -648,7 +648,8 @@ h1 {
 .link-confed {
   display: block;
   padding-top: 38px;
-  padding-right: 96px;
+  padding-right: 71px;
+  white-space: nowrap;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -664,15 +665,29 @@ h1 {
 .link-btn {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   text-align: center;
   flex-wrap: nowrap;
   padding: 13px 15px 11px 15px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 18px;
+  white-space:nowrap ;
   text-transform: uppercase;
   color: #ffffff;
   background: #00868a;
 }
+.item-list-btn {
+  padding-top: 25px;
+  padding-right: 31px;
+  padding-left: 30px;
+}
+.item-list {
+  padding-top: 33px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+
 /* end footer-bottom */
