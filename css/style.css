@@ -216,15 +216,12 @@ a {
 /* Косметология */
 
 .cosmetology__info {
-  width: 1300px;
-  height: 533px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-h1 {
+.cosmetology-title {
   font-size: 48px;
   line-height: 72px;
   letter-spacing: 0em;
@@ -232,7 +229,9 @@ h1 {
   color: #fff;
   margin-bottom: 20px;
 }
-.img__info {
+
+.img-info {
+  display: block;
   height: 100%;
 }
 .cosmetology-desc {
@@ -268,23 +267,29 @@ h1 {
 }
 /*  */
 .cos__info {
-  display: block;
   font-size: 21px;
   height: 80px;
 }
 .cos__info-buttom {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
 }
+.link-info-btn{
+  display: block;
+}
 .first__buttom {
+  width: 250px;
   padding: 24px 199px;
   background: #00868a;
 }
 .medium__buttom {
+  width: 152px;
   padding: 24px 83px 24px 82px;
 }
 .last__buttom {
+  width: 130px;
   padding: 24px 97px;
   background: #00868a;
 }
@@ -560,12 +565,11 @@ h1 {
 
 /* start footer */
 .footer {
-  margin-bottom: 65px;
+  margin-bottom: 61px;
 }
 .footer-wrap {
   display: flex;
   justify-content: start;
-  
 }
 .footer-card {
   display: grid;
@@ -645,7 +649,11 @@ h1 {
   font-size: 12px;
   line-height: 18px;
 }
+.item-list-confed {
+  border-right: 1px solid #c4c4c4;
+}
 .link-confed {
+  width: 176px;
   display: block;
   padding-top: 38px;
   padding-right: 71px;
@@ -673,21 +681,27 @@ h1 {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  white-space:nowrap ;
+  white-space: nowrap;
   text-transform: uppercase;
   color: #ffffff;
   background: #00868a;
 }
 .item-list-btn {
+  width: 270px;
   padding-top: 25px;
   padding-right: 31px;
   padding-left: 30px;
+  border-right: 1px solid #c4c4c4;
 }
 .item-list {
   padding-top: 33px;
   padding-left: 28px;
   padding-right: 28px;
+  border-right: 1px solid #c4c4c4;
 }
 
+.item-list:last-child {
+  border-right: none;
+}
 
 /* end footer-bottom */
