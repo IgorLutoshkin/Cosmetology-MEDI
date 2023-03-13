@@ -133,6 +133,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #000;
 }
 
 /*  Heder-nav */
@@ -144,13 +145,20 @@ a {
   padding-right: 35px;
   padding-left: 36px;
 }
-.link-phone {
-  padding: 36px 30px 35px 30px;
+.item__phone {
+  padding: 0 30px;
+}
+.number {
+  width: 125px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
+.item__salons{
+  padding: 0 30px;
+}
+
 
 .nav__list {
   display: flex;
