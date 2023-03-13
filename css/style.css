@@ -131,15 +131,22 @@ body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+
 /*  Heder-nav */
 .wrapper {
   max-width: 1295px;
   margin: 0 auto;
 }
-
-a {
-  text-decoration: none;
+.logo__medi{
+  padding-right: 35px;
+  padding-left: 36px;
 }
+.item__phone
+
+
 
 .nav__list {
   display: flex;
@@ -151,18 +158,13 @@ a {
   margin: 0;
   height: 90px;
 }
-.block__list a {
-  padding: 36px 30px 35px 30px;
-  display: block;
-  align-items: center;
-  color: rgb(0, 0, 0);
-}
+
+
 .nav__list li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
   height: 100%;
   border-left: 1px #c4c4c4;
   border-style: none solid none solid;
@@ -170,9 +172,7 @@ a {
 .nav__list li:last-child {
   border-right: 1px solid #c4c4c4;
 }
-.logo__medi a {
-  padding: 0 35px 0 36px;
-}
+
 
 /* wrapper info */
 .wrapper__info {
