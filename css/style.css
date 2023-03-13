@@ -140,13 +140,17 @@ a {
   max-width: 1295px;
   margin: 0 auto;
 }
-.logo__medi{
+.logo__medi {
   padding-right: 35px;
   padding-left: 36px;
 }
-.item__phone
-
-
+.link-phone {
+  padding: 36px 30px 35px 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
 
 .nav__list {
   display: flex;
@@ -158,7 +162,6 @@ a {
   margin: 0;
   height: 90px;
 }
-
 
 .nav__list li {
   display: flex;
@@ -172,7 +175,6 @@ a {
 .nav__list li:last-child {
   border-right: 1px solid #c4c4c4;
 }
-
 
 /* wrapper info */
 .wrapper__info {
@@ -213,7 +215,6 @@ a {
   color: black;
 }
 
-
 /* Косметология */
 
 .cosmetology__info {
@@ -222,7 +223,7 @@ a {
   align-items: start;
 }
 
-.cosmetology{
+.cosmetology {
   padding-top: 133px;
 }
 .cosmetology-title {
