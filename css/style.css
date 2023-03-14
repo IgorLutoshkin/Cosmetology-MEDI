@@ -390,6 +390,9 @@ a {
   line-height: 24px;
   letter-spacing: 0.05em;
 }
+.innovations-pic-wrap{
+  display: block;
+}
 .arrow {
   display: block;
   padding-right: 20px;
@@ -733,8 +736,8 @@ a {
 }
 .item-list {
   padding-top: 33px;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-left: 27px;
+  padding-right: 27px;
   border-right: 1px solid #c4c4c4;
 }
 
