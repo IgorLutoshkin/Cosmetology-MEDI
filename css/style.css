@@ -142,37 +142,46 @@ a {
   margin: 0 auto;
 }
 .logo__medi {
-  padding-right: 35px;
-  padding-left: 36px;
+  padding-right: 34px;
+  padding-left: 35px;
 }
 .item__phone {
-  padding: 0 30px;
+  padding: 0 24.5px;
 }
 .number {
-  width: 125px;
+  white-space: nowrap;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
 .item__salons {
-  padding: 0 30px;
+  padding: 0 29px;
 }
 .link-salons {
   display: flex;
 }
-.desc-salons {
+.text-salons {
+  width: 104px;
   padding-right: 15px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+}
+.item__btn{
+  width: 270px;
+  padding-left: 29px;
+  padding-right: 30px;
+}
+.item__socialnetwork{
+  padding: 0 27px;
 }
 
 
 
 .nav__list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   list-style: none;
@@ -190,7 +199,7 @@ a {
   border-left: 1px #c4c4c4;
   border-style: none solid none solid;
 }
-.nav__list li:last-child {
+.nav__list:last-child {
   border-right: 1px solid #c4c4c4;
 }
 
